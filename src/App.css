@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.Logo {
+  height: 80px;
+}
+.Carrito {
+  height: 35px;
+  padding-right: 10px;
+}
