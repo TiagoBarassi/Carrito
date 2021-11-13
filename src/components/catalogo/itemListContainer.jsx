@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import { Card } from 'reactstrap';
 import { CardGroup } from 'reactstrap';
 import { CardText } from 'reactstrap';
@@ -8,18 +7,9 @@ import { CardTitle } from 'reactstrap';
 import { CardSubtitle } from 'reactstrap';
 import { Button } from 'reactstrap';
 
-
-class itemListContainer extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { 
-            name: 'Tiago'
-         }
-    }
-
-    render() { 
-        return ( 
-            <CardGroup>
+const ItemListContainer = () => {
+    return (
+        <CardGroup>
                 <Card>
                     <CardImg
                     alt="Card image cap"
@@ -96,8 +86,7 @@ class itemListContainer extends Component {
                     </CardBody>
                 </Card>
             </CardGroup>
-                        );
-                }
-    }
- 
-export default itemListContainer;
+    );
+}
+
+export default ItemListContainer;

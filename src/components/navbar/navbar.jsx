@@ -1,4 +1,4 @@
-import cartWidget from './cartWidget';
+import CartWidget from './CartWidget';
 import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
@@ -27,7 +27,7 @@ const NavBar = () => {
             <NavDropdown.Item href="#action4">Cepillos</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <cartWidget />
+        <CartWidget />
         <Form className="d-flex">
           <FormControl
             type="search"
