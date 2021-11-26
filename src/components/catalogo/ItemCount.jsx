@@ -27,24 +27,24 @@ const ItemCount = ({ stock, initial}) => {
         <>
         <div>
             <Row className="justify-content-center">
-                <Col md={2}>
+                <Col md={4}>
                     <Button onClick={Decrease}>
                         -
                     </Button>
                 </Col>
-                <Col md={2}>
+                <Col md={4}>
                 <div>
                 <h5>{count}</h5>
                 </div>
                 </Col>
-                <Col md={2}>
+                <Col md={4}>
                     <Button onClick={Increase}>
                         +
                     </Button>
                 </Col>
             </Row>
             <Row className="justify-content-center">
-            <Col md={4}>
+            <Col md={8}>
                     <Button onClick={onAdd}>
                         Agregar al carrito
                     </Button>

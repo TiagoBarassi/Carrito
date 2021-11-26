@@ -8,11 +8,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Row md={4}>
+      <Row >
         <ItemListContainer greeting="Productos:"/>
-        <ItemListContainer /> 
-        <ItemListContainer /> 
-        <ItemListContainer />  
       </Row>
     </div>
   );

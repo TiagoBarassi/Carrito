@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imagen":"/images/colgate.png",
+        "producto":"Colgate",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Dentifrico",
+        "precio":"$500",
+        "stock":"200"
+    },
+    {
+        "id": 2,
+        "imagen":"/images/sensodyne.png",
+        "producto":"Sensodyne",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Dentifrico",
+        "precio":"$500",
+        "stock":"200"
+    },
+    {
+        "id": 3,
+        "imagen":"/images/oral-b.png",
+        "producto":"Oral-B",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Dentifrico",
+        "precio":"$500",
+        "stock":"200"
+    },
+    {
+        "id": 4,
+        "imagen":"/images/parodontax.png",
+        "producto":"Parodontax",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Dentifrico",
+        "precio":"$500",
+        "stock":"200"
+    },
+    {
+        "id": 5,
+        "imagen":"/images/gum.png",
+        "producto":"G-U-M",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Dentifrico",
+        "precio":"$500",
+        "stock":"200"
+    },
+    {
+        "id": 6,
+        "imagen":"/images/elgydium.png",
+        "producto":"Elgydium",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Dentifrico",
+        "precio":"$500",
+        "stock":"200"
+    }
+]
