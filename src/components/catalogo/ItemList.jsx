@@ -5,8 +5,7 @@ import { Row } from 'reactstrap'
 
 const ItemList = () => {
     
-    const [productos, setProductos] = useState([]);
-
+const [productos, setProductos] = useState([]);
   const getData = (data) =>
     new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -29,7 +28,9 @@ const ItemList = () => {
         <Row >
         {productos.length
         ? productos.map((producto) => (
+          <>
             <Item product={producto} key={producto.id} />
+            </>
           ))
         : "Cargando..."}
         </Row>

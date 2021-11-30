@@ -1,12 +1,11 @@
 import { Card } from 'reactstrap';
-import { CardText } from 'reactstrap';
 import { CardBody } from 'reactstrap';
 import { CardImg } from 'reactstrap';
 import { CardTitle } from 'reactstrap';
 import { CardSubtitle } from 'reactstrap';
 import { Col } from 'reactstrap';
 import ItemCount from './ItemCount';
-
+import ItemDetailContainer from './ItemDetailContainer';
 
 const Item = ({product }) => {
     return (
@@ -29,9 +28,7 @@ const Item = ({product }) => {
             >
                 {product.precio}
             </CardSubtitle>
-            <CardText>
-                {product.descripcion}
-            </CardText>
+            <ItemDetailContainer product={product} key={product.id}/>
             <ItemCount stock={15} initial={1} />
             </CardBody>
         </Card>
