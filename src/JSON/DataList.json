@@ -2,7 +2,7 @@
     {
         "id": 1,
         "imagen":"/images/colgate.png",
-        "producto":"Colgate",
+        "producto":"Pasta Colgate",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
         "categoria":"Dentifrico",
         "precio":"$500",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "imagen":"/images/sensodyne.png",
-        "producto":"Sensodyne",
+        "producto":"Pasta Sensodyne",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
         "categoria":"Dentifrico",
         "precio":"$500",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "imagen":"/images/oral-b.png",
-        "producto":"Oral-B",
+        "producto":"Pasta Oral-B",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
         "categoria":"Dentifrico",
         "precio":"$500",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "imagen":"/images/parodontax.png",
-        "producto":"Parodontax",
+        "producto":"Pasta Parodontax",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
         "categoria":"Dentifrico",
         "precio":"$500",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "imagen":"/images/gum.png",
-        "producto":"G-U-M",
+        "producto":"Pasta G-U-M",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
         "categoria":"Dentifrico",
         "precio":"$500",
@@ -47,10 +47,73 @@
     {
         "id": 6,
         "imagen":"/images/elgydium.png",
-        "producto":"Elgydium",
+        "producto":"Pasta Elgydium",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
         "categoria":"Dentifrico",
         "precio":"$500",
+        "stock":"200"
+    },
+    {
+        "id": 7,
+        "imagen":"/images/elgydiumCepillo.png",
+        "producto":"Cepillo Elgydium",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Cepillo Dental",
+        "precio":"$430",
+        "stock":"200"
+    },
+    {
+        "id": 8,
+        "imagen":"/images/colgateCepillo.png",
+        "producto":"Cepillo Colgate",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Cepillo Dental",
+        "precio":"$430",
+        "stock":"200"
+    },
+    {
+        "id": 9,
+        "imagen":"/images/oral-bCepillo.png",
+        "producto":"Cepillo Oral-B",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Cepillo Dental",
+        "precio":"$230",
+        "stock":"200"
+    },
+    {
+        "id": 10,
+        "imagen":"/images/gumCepillo.png",
+        "producto":"Cepillo G-U-M",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Cepillo Dental",
+        "precio":"$330",
+        "stock":"200"
+    },
+    {
+        "id": 11,
+        "imagen":"/images/enjuagueColgate.png",
+        "producto":"Enjuague Colgate",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Enjuague Bucal",
+        "precio":"$230",
+        "stock":"200"
+    },
+    {
+        "id": 12,
+        "imagen":"/images/enjuagueListerine.png",
+        "producto":"Enjuague Listerine",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Enjuague Bucal",
+        "precio":"$230",
+        "stock":"200"
+    },
+    {
+        "id": 13,
+        "imagen":"/images/enjuagueOral-b.png",
+        "producto":"Enjuague Oral-B",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
+        "categoria":"Enjuague Bucal",
+        "precio":"$230",
         "stock":"200"
     }
 ]

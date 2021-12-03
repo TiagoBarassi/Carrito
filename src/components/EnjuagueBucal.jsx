@@ -1,9 +1,9 @@
-import Item from './Item'
+import Item from './catalogo/Item'
 import { useState, useEffect } from 'react'
-import Products from '../../JSON/DataList.json'
+import Products from '../JSON/DataList.json'
 import { Row } from 'reactstrap'
 
-const ItemList = () => {
+const EnjuagueBucal = () => {
 
   const [productos, setProductos] = useState([]);
   const getData = (data) =>
@@ -26,16 +26,11 @@ const ItemList = () => {
   return (
     <>
       <Row md={5}>
-        {productos.length
-          ? productos.map((producto) => (
-            <>
-              <Item product={producto} key={producto.id} />
-            </>
-          ))
+        {productos.length ? productos.map((producto) => (<><Item product={producto} key={producto.id} /></>))
           : "Cargando..."}
       </Row>
     </>
   )
 }
 
-export default ItemList;
+export default EnjuagueBucal;

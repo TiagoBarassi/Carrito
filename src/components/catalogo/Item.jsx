@@ -4,19 +4,17 @@ import { CardImg } from 'reactstrap';
 import { CardTitle } from 'reactstrap';
 import { CardSubtitle } from 'reactstrap';
 import { Col } from 'reactstrap';
-import ItemCount from './ItemCount';
 import ItemDetailContainer from './ItemDetailContainer';
 
 const Item = ({product }) => {
     return (
     <>
     <Col>
-        <Card>
+        <Card className="listaProductos">
             <CardImg
             alt="Imagen del Producto"
             src={product.imagen}
-            top
-            width="100%"
+            className="fotoProducto"
             />
             <CardBody>
             <CardTitle tag="h5">
@@ -28,8 +26,7 @@ const Item = ({product }) => {
             >
                 {product.precio}
             </CardSubtitle>
-            <ItemDetailContainer product={product} key={product.id}/>
-            <ItemCount stock={15} initial={1} />
+            <ItemDetailContainer />
             </CardBody>
         </Card>
     </Col>

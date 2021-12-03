@@ -48,8 +48,16 @@
   padding: 10px;
   color: rgb(44, 38, 55);
 }
-.detallesProducto {
+.descripcionProducto {
   text-align: center;
   color: #282c34;
-  font-size: 1rem;
+  font-size: 0.75rem;
+}
+.fotoProducto{
+  max-height: 300px;
+}
+.listaProductos{
+  margin: 4px;
+  border-style: solid;
+  border-color: #282c34;
 }

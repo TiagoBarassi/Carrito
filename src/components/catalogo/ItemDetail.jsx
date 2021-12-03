@@ -1,9 +1,9 @@
 import { CardText } from 'reactstrap';
 
-const ItemDetail = ({product }) => {
+const ItemDetail = ({ product }) => {
     return(
         <>
-        <CardText>
+        <CardText className="descripcionProducto">
             {product.descripcion}
         </CardText>
         </>

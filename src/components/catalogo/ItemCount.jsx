@@ -1,5 +1,6 @@
 import { Button, Col, Row } from 'react-bootstrap';
 import { useState } from 'react';
+import swal from '@sweetalert/with-react'
 
 const ItemCount = ({ stock, initial}) => {
     const [count, setCount] = useState(initial)
@@ -20,37 +21,35 @@ const ItemCount = ({ stock, initial}) => {
 
     }
     const onAdd = () => {
-        const message = `Agregaste ${count} producto`;
-        count === 1 ? alert(message) : alert(`${message}s`);
+        if (count === 1) {swal ( "¡Listo!" ,  `Agregaste ${count} producto al carrito :)` ,  "success" )
+        }
+        else {swal ( "¡Listo!" ,  `Agregaste ${count} productos al carrito :)` ,  "success" )}
+        
     };
     return (
         <>
-        <div>
-            <Row className="justify-content-center">
-                <Col md={4}>
-                    <Button onClick={Decrease}>
-                        -
-                    </Button>
-                </Col>
-                <Col md={4}>
-                <div>
-                <h5>{count}</h5>
-                </div>
-                </Col>
-                <Col md={4}>
-                    <Button onClick={Increase}>
-                        +
-                    </Button>
-                </Col>
-            </Row>
-            <Row className="justify-content-center">
-            <Col md={8}>
-                    <Button onClick={onAdd}>
-                        Agregar al carrito
-                    </Button>
+        <Row>
+            <Col>
+                <Button onClick={Decrease}>
+                    -
+                </Button>
             </Col>
-            </Row>
-        </div>
+            <Col>
+                <h5>{count}</h5>
+            </Col>
+            <Col>
+                <Button onClick={Increase}>
+                    +
+                </Button>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+                <Button onClick={onAdd}>
+                    Agregar al carrito
+                </Button>
+            </Col>
+        </Row>
         </>
     );
 }
