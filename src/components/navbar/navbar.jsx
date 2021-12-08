@@ -6,9 +6,18 @@ import { NavDropdown } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom'
+import { LinkContainer } from 'react-router-bootstrap'
+import { useState } from 'react'
+import Products from '../../JSON/DataList.json';
 
 const NavBar = () => {
+    const [data,setData]=useState(Products);
+    const filterResult=(catItem)=>{
+      const result=Products.filter((curData)=>{
+        return curData.categoria===catItem;
+      });
+      setData(result)
+    }
 
   return (
     <>
@@ -26,15 +35,21 @@ const NavBar = () => {
               <Nav.Link href="servicios">Servicios</Nav.Link>
               <Nav.Link href="Productos">Productos</Nav.Link>
               <NavDropdown title="Categorias" id="navbarScrollingDropdown">
-                <NavLink to={`/category/Cepillos`}>
-                  Cepillos
-                </NavLink>
-                <NavLink to={`/category/PastasDentales`}>
-                  Pastas dentales
-                </NavLink>
-                <NavLink to={`/category/EnjuagueBucal`}>
-                  Enjuages Bucales
-                </NavLink>
+                <LinkContainer to="/category/Cepillos" onClick={()=>filterResult('Cepillo')}>
+                  <Nav.Link>
+                    Cepillos
+                  </Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="/category/PastasDentales" onClick={()=>filterResult('Dentifrico')}>
+                  <Nav.Link>
+                    Pastas Dentales
+                  </Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="/category/EnjuagueBucal" onClick={()=>filterResult('Enjuague')}>
+                  <Nav.Link>
+                    Enjuague Bucal
+                  </Nav.Link>
+                </LinkContainer>
               </NavDropdown>
             </Nav>
             <CartWidget />

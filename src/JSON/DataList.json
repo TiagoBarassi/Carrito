@@ -58,7 +58,7 @@
         "imagen":"/images/elgydiumCepillo.png",
         "producto":"Cepillo Elgydium",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Cepillo Dental",
+        "categoria":"Cepillo",
         "precio":"$430",
         "stock":"200"
     },
@@ -67,7 +67,7 @@
         "imagen":"/images/colgateCepillo.png",
         "producto":"Cepillo Colgate",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Cepillo Dental",
+        "categoria":"Cepillo",
         "precio":"$430",
         "stock":"200"
     },
@@ -76,7 +76,7 @@
         "imagen":"/images/oral-bCepillo.png",
         "producto":"Cepillo Oral-B",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Cepillo Dental",
+        "categoria":"Cepillo",
         "precio":"$230",
         "stock":"200"
     },
@@ -85,7 +85,7 @@
         "imagen":"/images/gumCepillo.png",
         "producto":"Cepillo G-U-M",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Cepillo Dental",
+        "categoria":"Cepillo",
         "precio":"$330",
         "stock":"200"
     },
@@ -94,7 +94,7 @@
         "imagen":"/images/enjuagueColgate.png",
         "producto":"Enjuague Colgate",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Enjuague Bucal",
+        "categoria":"Enjuague",
         "precio":"$230",
         "stock":"200"
     },
@@ -103,7 +103,7 @@
         "imagen":"/images/enjuagueListerine.png",
         "producto":"Enjuague Listerine",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Enjuague Bucal",
+        "categoria":"Enjuague",
         "precio":"$230",
         "stock":"200"
     },
@@ -112,7 +112,7 @@
         "imagen":"/images/enjuagueOral-b.png",
         "producto":"Enjuague Oral-B",
         "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor, magna non mollis dapibus, neque sem lobortis velit, ut varius augue ex nec risus.",
-        "categoria":"Enjuague Bucal",
+        "categoria":"Enjuague",
         "precio":"$230",
         "stock":"200"
     }

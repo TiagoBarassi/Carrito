@@ -6,9 +6,6 @@ import ItemListContainer from './components/catalogo/ItemListContainer';
 import Servicios from './components/Servicios';
 import Nosotros from './components/Nosotros';
 import Item from './components/catalogo/Item'
-import Pastas from './components/Pastas'
-import Cepillos from './components/Cepillos'
-import EnjuagueBucal from './components/EnjuagueBucal';
 
 //import { useEffect, useState } from 'react';
 //import { collection, getDoc, getDocs, getFirestore } from '@firebase/firestore';
@@ -46,9 +43,9 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/nosotros" element={<Nosotros />} />
             <Route path="/productos" element={<ItemListContainer greeting="Productos:" classname="listaProductos" />} />
-            <Route path="/category/PastasDentales" element={<Pastas />} />
-            <Route path="/category/EnjuagueBucal" element={<EnjuagueBucal />}/>
-            <Route path="/category/Cepillos" element={<Cepillos />}/>
+            <Route path="/category/PastasDentales" element={<ItemListContainer greeting="Productos:" classname="listaProductos" />} />
+            <Route path="/category/EnjuagueBucal" element={<ItemListContainer greeting="Productos:" classname="listaProductos" />}/>
+            <Route path="/category/Cepillos" element={<ItemListContainer greeting="Productos:" classname="listaProductos" />}/>
             <Route path="/productos/producto:id" element={<Item />} />
           </Routes>
         </div>

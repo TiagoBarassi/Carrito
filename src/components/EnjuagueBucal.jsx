@@ -26,7 +26,7 @@ const EnjuagueBucal = () => {
   return (
     <>
       <Row md={5}>
-        {productos.length ? productos.map((producto) => (<><Item product={producto} key={producto.id} /></>))
+        {productos.length ?  productos.map((producto) => (<><Item product={producto} key={producto.id} /></>))
           : "Cargando..."}
       </Row>
     </>

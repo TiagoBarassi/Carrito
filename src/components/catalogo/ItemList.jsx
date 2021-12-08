@@ -1,7 +1,7 @@
 import Item from './Item'
 import { useState, useEffect } from 'react'
 import Products from '../../JSON/DataList.json'
-import { Row } from 'reactstrap'
+import { Col, Row } from 'reactstrap'
 
 const ItemList = () => {
 
@@ -32,7 +32,7 @@ const ItemList = () => {
               <Item product={producto} key={producto.id} />
             </>
           ))
-          : "Cargando..."}
+          : <Row md={1} className='justify-content-center'><Col><div className="loader"></div></Col></Row>}
       </Row>
     </>
   )
